@@ -2,8 +2,30 @@
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="public/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Meta Description -->
+    <meta name="description" content="Servicios contables, tributarios y financieros personalizados para emprendedores, pequeñas empresas y conjuntos residenciales en Cundinamarca. Profesionales certificados con más de 10 años de experiencia." />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://7contable.com/" />
+    <meta property="og:title" content="7contable - Servicios contables modernos y personalizados" />
+    <meta property="og:description" content="Servicios contables, tributarios y financieros personalizados para emprendedores, pequeñas empresas y conjuntos residenciales en Cundinamarca. Profesionales certificados con más de 10 años de experiencia." />
+    <meta property="og:image" content="https://7contable.com/public/7contable.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:locale" content="es_CO" />
+    <meta property="og:site_name" content="7contable" />
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://7contable.com/" />
+    <meta name="twitter:title" content="7contable - Servicios contables modernos y personalizados" />
+    <meta name="twitter:description" content="Servicios contables, tributarios y financieros personalizados para emprendedores, pequeñas empresas y conjuntos residenciales." />
+    <meta name="twitter:image" content="https://7contable.com/public/7contable.png" />
+    
     <title>7contable - Servicios Contables en Cundinamarca</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -1124,16 +1146,6 @@
     </div>
 
     <script>
-      // Form submission
-      document.getElementById('contactForm').addEventListener('submit', function(e) {
-        e.preventDefault();
-        document.getElementById('successMessage').classList.remove('hidden');
-        this.reset();
-        setTimeout(() => {
-          document.getElementById('successMessage').classList.add('hidden');
-        }, 5000);
-      });
-
       // Mobile menu
       const mobileMenuBtn = document.getElementById('mobileMenuBtn');
       const mobileMenu = document.getElementById('mobileMenu');
